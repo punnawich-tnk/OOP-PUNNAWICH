@@ -11,9 +11,9 @@ elif score >= 50:
     print("คุณได้เกรด 1")
 elif score < 50:
     print("คุณได้เกรด 0 จะแก้ไหมครับคุณพี่")
-    recovery = int(input("จะแก้ 0 ไหมจ๊ะ ตอบ แก้พิมพ์ Yes หรือ ไม่แก้พิมพ์ No: "))
+    recovery = int(input("จะแก้ 0 ไหมพี่ ตอบ แก้พิมพ์ Yes หรือ ไม่แก้พิมพ์ No: "))
     if recovery == Yes:
-        print("ดีมากๆครับ คุณขาดคะแนนอีก"+str(50-recovery)+"ถึงจะผ่าน")
+        print("ดีมากครับ คุณขาดคะแนนอีก"+str(50-recovery)+"ถึงจะผ่าน")
     elif recovery == No:
         print("ไม่ผ่านนะเรียนใหม่")
 else :
