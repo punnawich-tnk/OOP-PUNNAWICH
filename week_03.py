@@ -14,7 +14,8 @@ height = float(input('โปรดกรอกส่วนสูง \n'))
 
 weight = float(input('โปรดกรอกน้ำหนัก \n'))
 
-print('ชื่อ:', name , 'อายุ:' , age ,'ปี \n' 'รหัสประจำตัวนักเรียน:' , id , 'ระดับชั้น:' , level )
-print('ชื่อเล่น:' , nickname)
-print('ส่วนสูง:' , height , 'น้ำหนัก:' , weight)
-print('ส่วนสูง + น้ำหนัก =' , height + weight)
+print('ชื่อ: ' + name +  ' อายุ: '  +str (age) + ' ปี')
+print('รหัสประจำตัวนักเรียน: ' +  str (id)   + ' ระดับชั้น: ' + str(level))
+print('ชื่อเล่น: ' +  nickname)
+print('ส่วนสูง: ' + str (height) + ' เซนติเมตร' + ' น้ำหนัก: ' + str (weight) +' กิโลกรัม')
+print('ส่วนสูง + น้ำหนัก = ' + str(height + weight))
