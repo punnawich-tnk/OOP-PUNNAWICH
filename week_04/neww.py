@@ -6,3 +6,5 @@ while i < 25:
     if b % 2 != 0: 
         print(f"{a} * {i} = {b}")
     i += 1  
+
+    
